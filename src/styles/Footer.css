@@ -1,0 +1,17 @@
+.footer {
+  padding: 40px 0;
+  text-align: center;
+  background: #000000;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-text {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-tagline {
+  color: #9ca3af;
+  font-size: 13px;
+}
