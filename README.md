@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# Frans Togu Tua Marbun - QA Engineer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website showcasing my experience and expertise as a Quality Assurance Engineer with over 6 years in the technology industry.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+[View Portfolio](https://your-portfolio-url.com) *(Update with your deployed URL)*
 
-### `npm start`
+## 📋 About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This portfolio website presents my professional journey, skills, and projects as a QA Engineer. It features a clean, modern design with smooth animations and responsive layout that works seamlessly across all devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Modern UI/UX**: Clean and professional interface with smooth animations
+- **Interactive Sections**: 
+  - Hero section with professional introduction
+  - About section highlighting my background
+  - Skills showcase with technical expertise
+  - Portfolio/Projects gallery
+  - Professional experience timeline
+  - Services offered
+  - Contact form
+- **Smooth Navigation**: Seamless scrolling between sections
+- **Performance Optimized**: Fast loading and optimized assets
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Built With
 
-### `npm run build`
+- **React.js** - Frontend framework
+- **CSS3** - Styling and animations
+- **JavaScript (ES6+)** - Interactive functionality
+- **Create React App** - Project setup and build tools
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🏗️ Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+src/
+├── components/          # React components
+│   ├── About.js        # About section
+│   ├── Contact.js      # Contact form
+│   ├── Experience.js   # Professional experience
+│   ├── Footer.js       # Footer component
+│   ├── Hero.js         # Hero/landing section
+│   ├── Navbar.js       # Navigation bar
+│   ├── Portofolio.js   # Portfolio/projects
+│   ├── Service.js      # Services offered
+│   └── Skills.js       # Technical skills
+├── styles/             # CSS stylesheets
+├── assets/             # Images and static files
+└── utils/              # Utility functions
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js (v14 or higher)
+- npm or yarn
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install dependencies
+```bash
+npm install
+```
 
-## Learn More
+3. Start the development server
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Available Scripts
 
-### Code Splitting
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
+- `npm run eject` - Ejects from Create React App (one-way operation)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📱 Responsive Design
 
-### Analyzing the Bundle Size
+The portfolio is fully responsive and tested on:
+- Desktop (1920px and above)
+- Laptop (1024px - 1919px)
+- Tablet (768px - 1023px)
+- Mobile (320px - 767px)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🎨 Customization
 
-### Making a Progressive Web App
+To customize this portfolio for your own use:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Update personal information in components
+2. Replace profile picture in `src/assets/images/`
+3. Modify color scheme in CSS files
+4. Update project information in `Portofolio.js`
+5. Customize skills in `Skills.js`
 
-### Advanced Configuration
+## 📧 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Frans Togu Tua Marbun - QA Engineer
 
-### Deployment
+- Email: [your-email@example.com]
+- LinkedIn: [Your LinkedIn Profile]
+- GitHub: [Your GitHub Profile]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📄 License
 
-### `npm run build` fails to minify
+This project is open source and available under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🙏 Acknowledgments
+
+- Built with Create React App
+- Icons and images from various sources
+- Inspiration from modern portfolio designs

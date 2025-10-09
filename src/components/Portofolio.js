@@ -37,7 +37,7 @@ const Portfolio = () => {
       <div className="container">
         <div className="section-header">
           <p className="section-subtitle">My work</p>
-          <h2 className="section-title">Recent Projects</h2>
+          <h2 className="section-title">Work Experience</h2>
           <div className="title-underline"></div>
         </div>
         
