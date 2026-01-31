@@ -137,12 +137,12 @@ const Hero = () => {
         
         <div className="hero-role-container">
           <div className="role-icon">🔍</div>
-          <p className="hero-role">QA Engineer</p>
+          <p className="hero-role">Software Quality Assurance</p>
         </div>
         
         <p className="hero-description">
           Crafting quality experiences through meticulous testing.<br/>
-          <strong>6+ years</strong> of expertise in ensuring software excellence.
+          <strong>7+ years</strong> of expertise in ensuring software excellence.
         </p>
         
         <div className="hero-buttons">

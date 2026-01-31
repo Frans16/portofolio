@@ -1,28 +1,26 @@
 import React from 'react';
 import '../styles/About.css';
-import cvFile from '../assets/docs/Frans_Marbun_CV.pdf';
+import cvFile from '../assets/docs/Frans_Togu_Marbun_CV.pdf';
 
 const About = () => {
   const stats = [
-    { number: '6+', label: 'Years Experience', icon: '🎯' },
-    { number: '50+', label: 'Projects Done', icon: '🚀' },
-    { number: '2+', label: 'Years Lead QA', icon: '👨‍💼' },
+    { number: '7+', label: 'Years Experience', icon: '🎯' },
+    { number: '20+', label: 'Projects Done', icon: '🚀' },
+    { number: '3+', label: 'Years Lead QA', icon: '👨‍💼' },
     { number: '5+', label: 'Years Automation', icon: '🤖' }
   ];
 
-  const skills = [
-    'Test Automation',
-    'Manual Testing',
-    'API Testing',
-    'Performance Testing',
-    'CI/CD Integration',
-    'Agile/Scrum'
-  ];
+  // const skills = [
+  //   'AI-Driven Workflow Automation',
+  //   'Test Automation Strategy & Framework Design',
+  //   'QA Process Improvement & Quality Governance',
+  //   'Performance Testing & Optimization',
+  // ];
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
     link.href = cvFile;
-    link.download = 'Frans_Marbun_CV.pdf';
+    link.download = 'Frans_Togu_Marbun_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -54,28 +52,26 @@ const About = () => {
           <div className="about-content">
             <div className="about-text">
               <p className="about-paragraph">
-                <span className="highlight">Highly skilled Quality Assurance Engineer</span> with 
-                <strong> 6+ years of experience</strong> driving superior product quality and 
-                engineering excellence. Proven ability to design and implement robust, 
-                end-to-end testing strategies, expertly leveraging advanced automation 
-                to maximize efficiency and precision.
+                <span className="highlight">Senior Quality Assurance Engineer and QA Lead</span> with 
+                <strong> 7+ years of experience</strong> driving product quality and engineering excellence across diverse industries. 
+                Proven ability to <strong>define and execute end-to-end QA strategies</strong>, combining test automation, manual testing,
+                API, and performance testing to maximize efficiency, reliability, and release confidence.
               </p>
               <p className="about-paragraph">
-                Successfully managed comprehensive functional and non-functional testing efforts, 
-                ensuring deep alignment with complex product requirements and business goals. 
-                Brings a blend of strong technical acumen and an unwavering commitment 
-                to delivering products that consistently exceed customer expectations 
-                and quality benchmarks.
+                Experienced in <strong>leading QA teams</strong>, managing resources and timelines across multi-project environments, 
+                and ensuring testing efforts align with complex product requirements and business objectives. 
+                Brings a strong blend of <strong>hands-on technical expertise</strong>, strategic quality ownership, 
+                and a commitment to delivering scalable, high-quality products that consistently exceed customer expectations.
               </p>
             </div>
 
-            <div className="skills-tags">
+            {/* <div className="skills-tags">
               {skills.map((skill, index) => (
                 <span key={index} className="skill-tag">
                   {skill}
                 </span>
               ))}
-            </div>
+            </div> */}
 
             <button onClick={handleDownloadCV} className="btn btn-primary btn-download">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -98,45 +94,7 @@ const About = () => {
               ))}
             </div>
 
-            <div className="experience-card">
-              <div className="experience-header">
-                <div className="experience-icon">💼</div>
-                <div>
-                  <h3 className="experience-title">Professional Journey</h3>
-                  <p className="experience-subtitle">Building quality software since 2018</p>
-                </div>
-              </div>
-              <div className="experience-list">
-                <div className="experience-item">
-                  <div className="experience-dot"></div>
-                  <div>
-                    <p className="experience-role">QA Specialist (Lead)</p>
-                    <p className="experience-company">Digital Agency [2024 - Present]</p>
-                  </div>
-                </div>
-                <div className="experience-item">
-                  <div className="experience-dot"></div>
-                  <div>
-                    <p className="experience-role">Mid. QA Engineer</p>
-                    <p className="experience-company">HRIS [2022 - 2024]</p>
-                  </div>
-                </div>
-                <div className="experience-item">
-                  <div className="experience-dot"></div>
-                  <div>
-                    <p className="experience-role">QA Engineer</p>
-                    <p className="experience-company">Insurance [2020 - 2022]</p>
-                  </div>
-                </div>
-                <div className="experience-item">
-                  <div className="experience-dot"></div>
-                  <div>
-                    <p className="experience-role">Manual QA</p>
-                    <p className="experience-company">Outsourcing [2018 - 2020]</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+              
           </div>
         </div>
       </div>

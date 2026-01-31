@@ -50,7 +50,7 @@ const Contact = () => {
         {/* Highlighted WhatsApp Card */}
         <div className="featured-contact">
           <a 
-            href="https://wa.me/6281310002500"
+            href="https://wa.me/6281262058978"
             className="whatsapp-card-featured"
             target="_blank"
             rel="noopener noreferrer"

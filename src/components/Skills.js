@@ -10,6 +10,12 @@ const Skills = () => {
       description: 'Web Automation'
     },
     { 
+      name: 'Appium', 
+      level: 80, 
+      icon: '📱',
+      description: 'Mobile Automation'
+    },
+    { 
       name: 'Katalon Studio', 
       level: 85, 
       icon: '⚡',
@@ -17,7 +23,7 @@ const Skills = () => {
     },
     { 
       name: 'Playwright', 
-      level: 88, 
+      level: 80, 
       icon: '🎭',
       description: 'Modern Web Testing'
     },
@@ -25,7 +31,13 @@ const Skills = () => {
       name: 'JMeter', 
       level: 82, 
       icon: '📊',
-      description: 'Performance Testing'
+      description: 'Performance & Load Testing'
+    },
+    { 
+      name: 'K6', 
+      level: 80, 
+      icon: '📈',
+      description: 'Performance & Load Testing'
     },
     { 
       name: 'API Testing', 
@@ -34,10 +46,10 @@ const Skills = () => {
       description: 'REST & GraphQL'
     },
     { 
-      name: 'Test Management', 
+      name: 'N8N', 
       level: 80, 
-      icon: '📋',
-      description: 'Strategy & Planning'
+      icon: '🤖',
+      description: 'Automation Workflows'
     }
   ];
 

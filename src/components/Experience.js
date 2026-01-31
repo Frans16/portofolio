@@ -7,25 +7,25 @@ const Experience = () => {
       year: '2024 - Present',
       title: 'QA Specialist (Lead)',
       company: 'Antikode - Digital Agency',
-      description: 'Responsible for defining and managing the entire Quality Assurance (QA) strategy for digital projects, ensuring that all websites, applications, and campaigns are functionally sound and meet high quality standards before launch. I personally lead the testing process and serve as the critical bridge between the development team and the client\'s expectations, acting as the final quality authority.'
+      description: 'Own and drive the end-to-end Quality Assurance strategy across multiple digital projects, ensuring websites, applications, and campaigns are delivered with high reliability and quality. Lead and execute functional, automation, API, and performance testing, while acting as the primary quality authority bridging engineering teams and client expectations. Proactively identify quality risks, align QA efforts with delivery timelines, and ensure products meet both technical standards and business objectives before release.'
     },
     {
       year: '2022 - 2024',
       title: 'QA Engineer',
       company: 'Appsensi - HRIS',
-      description: 'Led the QA team in a high-profile project, ensuring the successful implementation of a robust Human Resources Information System (HRIS) solution. Collaborated closely with cross-functional teams to identify and address potential issues, resulting in a 20% increase in employee satisfaction. Implemented a comprehensive testing strategy, including unit tests, integration tests, and end-to-end tests, to validate the functionality and performance of the system. Actively participated in the development process, providing feedback and suggestions to drive continuous improvement.'
+      description: 'Played a key role in ensuring the quality and reliability of a Human Resources Information System (HRIS) by leading QA activities and collaborating closely with cross-functional teams. Defined and executed end-to-end testing strategies, including functional, integration, automation, and performance testing, to validate system stability and scalability. Actively contributed to the development process by identifying quality risks early and providing actionable feedback to support continuous product improvement.'
     },
     {
       year: '2020 - 2022',
       title: 'QA Engineer',
       company: 'Prudential Indonesia - Insurance',
-      description: 'Led the QA team in a high-profile project, ensuring the successful implementation of a robust Insurance Information System (INS) solution. Collaborated closely with cross-functional teams to identify and address potential issues, resulting in a 20% increase in customer satisfaction. Implemented a comprehensive testing strategy, including unit tests, integration tests, and end-to-end tests, to validate the functionality and performance of the system. Actively participated in the development process, providing feedback and suggestions to drive continuous improvement.'
+      description: 'Contributed to the quality assurance of core insurance systems by executing and maintaining end-to-end testing across critical business flows. Collaborated closely with product and engineering teams to identify risks, validate system integrations, and ensure stable delivery of policy-related features. Supported continuous improvement by providing early QA feedback and ensuring releases met both technical and regulatory standards.'
     },
     {
       year: '2018 - 2020',
       title: 'Manual QA',
       company: 'IDStar - Outsourcing',
-      description: 'Worked as a Manual QA Engineer for an outsourcing company, responsible for testing and validating software applications. Collaborated with cross-functional teams to identify and address potential issues, ensuring the quality and functionality of the software. Conducted thorough testing activities, including functional testing, regression testing, and usability testing, to meet the client\'s requirements. Provided detailed bug reports and documentation, facilitating effective communication with the development team. Actively participated in the software development lifecycle, contributing to the delivery of high-quality software products.'
+      description: 'Supported quality assurance activities across multiple client projects by executing manual testing and validating application functionality against business requirements. Performed functional, regression, and usability testing, while documenting defects clearly to ensure effective collaboration with development teams. Contributed to the software development lifecycle by ensuring delivered solutions met agreed quality standards.'
     }
   ];
 

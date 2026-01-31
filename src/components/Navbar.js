@@ -34,7 +34,7 @@ const Navbar = () => {
     }
   };
 
-  const menuItems = ['Home', 'About', 'Services', 'Skills', 'Portfolio', 'Experience', 'Contact'];
+  const menuItems = ['Home', 'About', 'Skills', 'Portfolio', 'Experience', 'Contact'];
 
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
