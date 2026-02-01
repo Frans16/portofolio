@@ -4,6 +4,10 @@ import '../styles/Portofolio.css';
 import appsensiImage from '../assets/images/appsensi_logo.png';
 import antikodeImage from '../assets/images/antikode_logo.jpg';
 import danantaraImage from '../assets/images/prudential_logo.jpg';
+import sepatuCompassWebsite from '../assets/images/sepatuCompass/sepatu-compass-logo.jpg';
+import xlWebsite from '../assets/images/xl.co.id/xl-logo.png';
+import makeOverWebsite from '../assets/images/makeover/makeover-logo.png';
+import arkaRewards from '../assets/images/arka-rewards/arka-rewards.png';
 
 import appsensi1 from '../assets/images/appsensi/appsensi1.jpg';
 import appsensi2 from '../assets/images/appsensi/appsensi2.jpg';
@@ -30,40 +34,97 @@ const Portofolio = () => {
       projects: [
         {
           id: 1,
-          title: 'Compass NFC',
+          title: 'Sepatu Compass Website',
           client: 'Sepatu Compass',
-          description: 'The Compass NFC Project integrates Near Field Communication (NFC) technology into every new pair of Compass® shoes, starting in April 2025. This feature embeds a small NFC chip into the shoe—typically near the size label—allowing customers to use their MyCOMPASS app on an NFC-enabled smartphone. The primary purpose is to enable instant digital product authentication, allowing consumers to quickly and confidently verify the originality of their purchase, which is the brand\'s direct action against counterfeit products.',
+          description: 'The official e-commerce website of Sepatu Compass, an Indonesian footwear brand, designed as the primary digital sales and brand engagement platform. The website allows customers to explore product collections, access detailed product information, purchase items directly online, and participate in exclusive releases and campaign-based launches.',
           images: [
-            compassNFC
+            sepatuCompassWebsite
           ],
-          tools: ['Click Up'],
+          tools: [
+            'Selenium',
+            'JMeter',
+            'JIRA',
+            'Shopify'
+          ],
           features: [
-            'Real-time inventory tracking',
-            'Secure payment gateway integration',
-            'Admin dashboard with analytics',
-            'Mobile-responsive design',
-            'Advanced search and filtering'
+            'End-to-end regression testing after platform migration to Shopify',
+            'Validation of critical e-commerce flows including product browsing, checkout, payment, and order management',
+            'Performance testing using JMeter to ensure stability during high-traffic campaign periods',
+            'Automation regression testing using Selenium to validate production safety before live releases',
+            'Defect tracking, test case management, and release coordination using JIRA'
           ],
-          duration: '3 months',
-          url: 'https://sepatucompass.com/collaborations/scan-verify-walk-proud'
+          projectType: 'Website',
+          url: 'https://sepatucompass.com'
         },
         {
-          id: 2,
-          title: 'RS Bunda Web Revamp',
-          client: 'RS Bunda',
-          description: 'RS Bunda Group (Bundamedik Healthcare System) is a leading private hospital network in Indonesia, widely recognized for its excellence in Maternal and Child Health (MCH), fertility treatments (via Morula IVF), and the use of modern medical technology, including robotic minimally invasive surgery. The Group provides comprehensive, family-centered healthcare services, ranging from childbirth to specialized centers for the entire family, with a strong focus on delivering a premium patient experience.',
-          images: [
-             rsBunda
-          ],
-          tools: ['Click Up'],
-          features: [
-            'Find a Doctor" & Appointment Scheduling',
-            'Transaction & Payment Processing Testing (Vaccine, MCU)',
-            'Lab Results Report',
-          ],
-          duration: '4 months',
-          url: 'https://www.bunda.co.id/id/packages'
-        }
+        id: 2,
+        title: 'xl.co.id Website',
+        client: 'XL Group',
+        description: 'xl.co.id is the official corporate and customer-facing website of XL Axiata, one of Indonesia’s leading telecommunications providers. The website serves as a central platform for customers to explore mobile products and services, manage subscriptions, access promotions, and obtain customer support information, while also supporting high traffic from nationwide users.',
+        images: [
+          xlWebsite
+        ],
+        tools: [
+          'Selenium',
+          'Click Up'
+        ],
+        features: [
+          'Regression testing to ensure stability of critical customer journeys and service information',
+          'Validation of core website functionalities including product pages, service flows, and user interactions',
+          'API testing to verify data consistency between frontend and backend services',
+          'Cross-browser and responsive testing to ensure consistent user experience across devices',
+          'Defect tracking and test coordination using Click Up'
+        ],
+        projectType: 'Website',
+        url: 'https://www.xl.co.id'
+      },
+      {
+        id: 3,
+        title: 'Make Over Website',
+        client: 'Make Over',
+        description: 'The official website of Make Over Cosmetics, a professional beauty brand in Indonesia, serving as a digital platform for product discovery, brand campaigns, and customer engagement. The website supports frequent feature updates and high-traffic promotional campaigns, making stability and performance critical to the business.',
+        images: [
+          makeOverWebsite
+        ],
+        tools: [
+          'JMeter',
+          'Lark',
+        ],
+        features: [
+          'Regression testing to ensure stability of existing features across frequent updates',
+          'System Integration Testing (SIT) for newly developed features before release',
+          'Performance testing using JMeter to validate website readiness during campaign periods',
+          'Validation of core user journeys including product browsing and promotional flows',
+          'Defect tracking and release coordination using Lark'
+        ],
+        projectType: 'Website',
+        url: 'https://www.makeoverforall.com'
+      },
+      {
+        id: 4,
+        title: 'Arka Rewards',
+        client: 'Arka Group',
+        description: 'Arka Rewards is a loyalty program platform designed to increase customer engagement and retention through a points-based reward system. The platform enables users to earn points from transactions, redeem rewards such as vouchers, participate in campaigns, and unlock benefits through tiered membership levels.',
+        images: [
+          arkaRewards
+        ],
+        tools: [
+          'JMeter',
+          'Postman',
+          'Lark',
+          'Selenium'
+        ],
+        features: [
+          'End-to-end testing of loyalty flows including point accumulation, voucher redemption, and transaction validation',
+          'Validation of reward benefits, tiering logic, and eligibility rules',
+          'Testing of campaign-based loyalty programs and promotional mechanics',
+          'Regression testing to ensure stability of core loyalty features across releases',
+          'Verification of data consistency between transactions, points, and rewards'
+        ],
+         projectType: 'Mobile App',
+        url: "https://www.arkagroup.id/arka-rewards/"
+      }
+
       ]
     },
     {
@@ -78,20 +139,20 @@ const Portofolio = () => {
           id: 3,
           title: 'Attendance Management System',
           client: 'Multi-Corporate Clients',
-          description: 'Cloud-based human resource management solution developed by PT Appsensi Tiga Ribu, primarily serving as an advanced digital platform for employee attendance and payroll. It replaces traditional time clocks by utilizing smartphones for clock-in and clock-out, rigorously validating attendance data through integrated GPS tracking with geofencing and face recognition technology',
+          description: 'A mobile-first attendance management system designed to help companies manage employee attendance, leave, and payroll processes digitally. The system replaces traditional attendance methods by enabling employees to clock in and out via smartphones, supported by GPS-based geofencing and face recognition to ensure data accuracy and prevent misuse.',
           images: [
             appsensi1,
             appsensi2
           ],
           tools: ['Appium', 'Selenium', 'Gitlab', 'Jira'],
           features: [
-            'GPS-based check-in/out',
-            'Face recognition technology',
-            'Automated timesheet generation',
-            'Leave management',
-            'Real-time reporting dashboard'
+            'Validated GPS-based check-in/out accuracy across multiple locations and real-world usage scenarios',
+            'Tested face recognition flows to ensure reliability, edge-case handling, and fraud prevention',
+            'Executed regression testing to maintain stability across frequent feature updates',
+            'Performed system integration testing for attendance, leave, and payroll data flows',
+            'Collaborated closely with developers and product teams to identify risks before production releases'
           ],
-          duration: '-',
+          projectType: 'Mobile App',
           url: 'https://appsensi.com'
         }
       ]
@@ -102,26 +163,26 @@ const Portofolio = () => {
       logo: danantaraImage,
       type: 'Insurance',
       period: 'Mar 2020 - Mar 2022',
-      description: 'Leading insurance and financial services company providing comprehensive protection and investment solutions.',
+      description: 'A leading insurance and financial services company providing digital group insurance solutions for corporate clients across Indonesia.',
       projects: [
         {
           id: 4,
           title: 'PRUWorks',
           client: 'Prudential Indonesia',
-          description: 'PRUWorks is a suite of digital group insurance products offered by Prudential Indonesia, designed specifically for corporate customers to provide protection for their employees.',
+          description: 'PRUWorks is a digital group insurance platform designed for corporate customers to manage employee insurance coverage, claims, and policy information through a centralized system.',
           images: [
             prudential1,
             prudential2
           ],
           tools: ['Selenium', 'Bitbucket', 'Jira'],
-          features: [
-            'Online claim submission',
-            'Automated document verification',
-            'Real-time claim status tracking',
-            'Integration with hospital networks',
-            'PDF report generation'
+           features: [
+            'Regression testing to ensure stability of core insurance and claim flows',
+            'Validation of online claim submission and document handling processes',
+            'System integration testing across claims, policy data, and reporting modules',
+            'Automation testing using Selenium to improve regression efficiency',
+            'Defect tracking and collaboration with development teams using JIRA'
           ],
-          duration: '-',
+          projectType: 'Website',
           url: 'https://www.prudential.co.id/id/enterprise/pruworks/'
         }
       ]
@@ -268,7 +329,7 @@ const Portofolio = () => {
                         <h4>{project.title}</h4>
                         <div className="company-project-meta">
                           <span className="role-badge">{project.client}</span>
-                          <span className="duration-text">{project.duration}</span>
+                          <span className="duration-text">{project.projectType}</span>
                         </div>
                         <p>{project.description.substring(0, 100)}...</p>
                         
@@ -354,7 +415,7 @@ const Portofolio = () => {
                     <line x1="8" y1="2" x2="8" y2="6" />
                     <line x1="3" y1="10" x2="21" y2="10" />
                   </svg>
-                  <span>{selectedProject.duration}</span>
+                  <span>{selectedProject.projectType}</span>
                 </div>
               </div>
 

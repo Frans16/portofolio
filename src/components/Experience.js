@@ -16,13 +16,13 @@ const Experience = () => {
       description: 'Played a key role in ensuring the quality and reliability of a Human Resources Information System (HRIS) by leading QA activities and collaborating closely with cross-functional teams. Defined and executed end-to-end testing strategies, including functional, integration, automation, and performance testing, to validate system stability and scalability. Actively contributed to the development process by identifying quality risks early and providing actionable feedback to support continuous product improvement.'
     },
     {
-      year: '2020 - 2022',
+      year: '2021 - 2022',
       title: 'QA Engineer',
       company: 'Prudential Indonesia - Insurance',
       description: 'Contributed to the quality assurance of core insurance systems by executing and maintaining end-to-end testing across critical business flows. Collaborated closely with product and engineering teams to identify risks, validate system integrations, and ensure stable delivery of policy-related features. Supported continuous improvement by providing early QA feedback and ensuring releases met both technical and regulatory standards.'
     },
     {
-      year: '2018 - 2020',
+      year: '2018 - 2021',
       title: 'Manual QA',
       company: 'IDStar - Outsourcing',
       description: 'Supported quality assurance activities across multiple client projects by executing manual testing and validating application functionality against business requirements. Performed functional, regression, and usability testing, while documenting defects clearly to ensure effective collaboration with development teams. Contributed to the software development lifecycle by ensuring delivered solutions met agreed quality standards.'
